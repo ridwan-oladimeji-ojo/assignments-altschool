@@ -1,0 +1,136 @@
+Reset some default browser styles
+body, h1, h2, p, form, input, select, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.left-section, .right-section {
+    padding: 30px;
+    width: 50%;
+}
+.ready{
+    padding: 20px;
+    margin-right: -200px;
+    /* width: 300px; */
+}
+strong.bold{
+    color: black;
+}
+
+.left-section {
+    background-color: #fef6e4;
+    text-align: center;
+}
+img.logo{
+    width: 300px;
+}
+
+.left-section h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.social-links {
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.social-links a {
+    margin: 0 10px;
+    
+    
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.right-section {
+    padding-top: 10px;
+    
+}
+
+.form-header {
+    text-align: center;
+}
+
+.form-header h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.form-header p {
+    margin: 10px 0;
+    color: #888;
+}
+
+.form-header a {
+    display: block;
+    color: #1a73e8;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-footer p {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.form-footer button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1a73e8;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-footer button:hover {
+    background-color: #155cb0;
+}

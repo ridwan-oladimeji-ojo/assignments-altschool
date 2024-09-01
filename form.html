@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alt School Application</title>
+    <link rel="stylesheet" href="application.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Section: Image and Text -->
+      <div class="left-section">
+        <img src="asset/logo.png" alt="Alt School" class="logo" />
+        <h1>Learn highly sought after skills without hassle.</h1>
+        <div class="social-links">
+          <a href="#"
+            ><img src="asset/icons8-twitter-50.png" alt="Twitter"
+          /></a>
+          <a href="#"
+            ><img src="asset/icons8-instagram-50.png" alt="Facebook"
+          /></a>
+          <a href="#"
+            ><img src="asset/icons8-facebook-50.png" alt="Facebook"
+          /></a>
+          <a href="#"
+            ><img src="asset/icons8-linkedin-30.png" alt="LinkedIn"
+          /></a>
+        </div>
+        <br />
+        <p>Tel: 0800ALTSCHOOL</p>
+        <br />
+        <p>
+          <strong>&copy;2024 AltSchool Africa. All rights reserved.</strong>
+        </p>
+      </div>
+
+      <!-- Right Section: Form -->
+      <div class="right-section">
+        <div class="form-header">
+          <a class="ready" href="#"
+            ><strong class="bold">Already an AltSchooler? </strong
+            ><strong> Sign In!</strong></a
+          >
+          <h2>Signup</h2>
+          <p>Take the next steps to apply at AltSchool Africa</p>
+        </div>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="Enter first name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Enter last name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+              <option>Select gender</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter email address"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="08154387000"
+            />
+          </div>
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option>Select your country</option>
+              <option>Nigeria</option>
+              <option>Ghana</option>
+              <option>Kenya</option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="state">State/City of Residence</label>
+            <input
+              type="text"
+              id="state"
+              name="state"
+              placeholder="Enter your state of residence"
+            />
+          </div>
+          <div class="form-group">
+            <label for="hear-about">How did you hear about us?</label>
+            <select id="hear-about" name="hear-about">
+              <option>Select channel</option>
+              <option>Social Media</option>
+              <option>Friend</option>
+              <option>Google Search</option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter password"
+            />
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="Enter password again"
+            />
+          </div>
+          <div class="form-footer">
+            <p>
+              By clicking continue, I agree to the
+              <a href="#">Terms of Use</a> and acknowledge that I have read the
+              <a href="#">Privacy Policy</a>.
+            </p>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
